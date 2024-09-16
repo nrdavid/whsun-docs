@@ -24,6 +24,7 @@ The site is maintained by the [Sun Research Group](https://whsunresearch.group/)
 3. Create the environment from the `environment.yml' file.
     ```sh
     conda env create -f environment.yml
+    conda activate whsun-docs
     ```
 
 4. Run the development server.
