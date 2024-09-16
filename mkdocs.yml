@@ -1,0 +1,35 @@
+site_name: Sun Group Handbook
+site_description: Computational resources and documentation for the Sun Group at University of Michigan - Ann Arbor
+site_author: Nicholas David & Gillian James
+plugins:
+  - search
+  - git-revision-date-localized
+  - glightbox
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  logo: assets/ctf101.png
+  icon:
+    logo: logo
