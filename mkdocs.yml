@@ -13,7 +13,9 @@ copyright: Copyright &copy; 2024 -
 # Plugins
 plugins:
   - search
-  - git-authors
+  - git-committers:
+      repository: nrdavid/whsun-docs
+      branch: main
   - git-revision-date-localized:
       enable_creation_date: true
 
