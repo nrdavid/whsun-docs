@@ -13,6 +13,7 @@ copyright: Copyright &copy; 2024 -
 # Plugins
 plugins:
   - search
+  - glightbox
   - git-committers:
       repository: nrdavid/whsun-docs
       branch: main
@@ -143,3 +144,6 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
+
+  - Getting Started:
+    - Setup: 'getting_started/setup.md'

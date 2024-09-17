@@ -1,17 +1,10 @@
-# Welcome to MkDocs
+# Welcome to the Sun Group Handbook
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This handbook serves as documentation for commonly used computational resources for the Sun Research Group at the University of Michigan - Ann Arbor.
 
-## Commands
+<figure markdown="span">
+  ![Maxwell surface](assets/maxwell.jpg)
+  <br>*Diagram of thermodynamic surface from Maxwell's book Theory of Heat.*
+</figure>
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+> Classical thermodynamics is the only physical theory of universal content which I am convinced will never be overthrown. - Albert Einstein
