@@ -1,5 +1,6 @@
 # Project information
 site_name: Sun Group Handbook
+site_url: https://nrdavid.github.com/whsun-docs
 site_description: Computational resources and documentation for the Sun Group at University of Michigan - Ann Arbor
 site_author: Nicholas David & Gillian James
 
@@ -25,6 +26,34 @@ theme:
   name: material
   # used to override partials like footer and copyright
   custom_dir: overrides
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    # - content.footnote.tooltips
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune
+    # - navigation.sections
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    # - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    # - toc.follow
+    # - toc.integrate
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -44,34 +73,6 @@ theme:
       toggle:
         icon: material/toggle-switch-off
         name: Switch to system preference
-  featues:
-    - announce.dismiss
-    - content.action.edit
-    - content.action.view
-    - content.code.annotate
-    - content.code.copy
-    # - content.code.select
-    # - content.footnote.tooltips
-    # - content.tabs.link
-    - content.tooltips
-    # - header.autohide
-    # - navigation.expand
-    - navigation.footer
-    - navigation.indexes
-    # - navigation.instant
-    # - navigation.instant.prefetch
-    # - navigation.instant.progress
-    # - navigation.prune
-    - navigation.sections
-    - navigation.tabs
-    # - navigation.tabs.sticky
-    - navigation.top
-    - navigation.tracking
-    - search.highlight
-    - search.share
-    - search.suggest
-    - toc.follow
-    # - toc.integrate
   font:
     text: Roboto
     code: Roboto Mono
@@ -79,6 +80,7 @@ theme:
   logo: assets/maxwell_sun.png
   icon:
     logo: logo
+    annotation: material/plus-circle
 
 # Additional configuration
 extra:
@@ -87,7 +89,7 @@ extra:
   status:
     new: Recently added
     deprecated: Deprecated
-  social:
+  # social:
     # - icon: material/web
     #   link: https://whsunresearch.group/
 
