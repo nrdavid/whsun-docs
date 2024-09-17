@@ -13,6 +13,9 @@ copyright: Copyright &copy; 2024 -
 # Plugins
 plugins:
   - search
+  - git-authors
+  - git-revision-date-localized:
+      enable_creation_date: true
 
 # Theme
 theme:
