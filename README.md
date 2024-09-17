@@ -2,7 +2,7 @@
 
 ## Sun Research Group Handbook
 
-This is the official repository for the Sun Group Handbook hosted at XXXXX.
+This is the official repository for the Sun Group Handbook hosted at [https://nrdavid.github.io/whsun-docs/](https://nrdavid.github.io/whsun-docs/).
 
 This branch uses [MKdocs](https://www.mkdocs.org/) and [MKdocs-Material](https://squidfunk.github.io/mkdocs-material/).
 
