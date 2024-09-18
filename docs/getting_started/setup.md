@@ -55,6 +55,27 @@ You may need to restart your shell in order for the changes to take effect.
     ```
     Read more about it [here](https://www.anaconda.com/blog/conda-is-fast-now). Now solving environments will be faster without any changes.
 
+### Creating a new environment
+
+Conda environments should be created whenever starting a new project. To make one with the latest stable release of python type:
+
+``` bash
+conda create -n myenv python
+```
+`-n myenv` instructs conda to name your environment 'myenv' and `python` installs python and all of it's core dependencies in the new environment. To enter or exit the environment, use the commands below.
+
+=== "Activate"
+    
+    ``` bash
+    conda activate myenv
+    ```
+
+=== "Deactivate"
+
+    ``` bash
+    conda deactivate
+    ```
+
 ## Using Visual Studio Code
 
 Download and install [Visual Studio Code](https://code.visualstudio.com/"). Follow the installation instructions for your OS. VS Code is a lightweight IDE used for a variety of langauges. Once installed open VS Code and navigate to the "Extensions" tab (1). Search the marketplace for the "Python" extension and install. With this extension VS Code will be able to recognize Python, giving you meaningful feedback from the IDE when writing your code.
