@@ -2,6 +2,8 @@
 
 This tutorial will get you started with basic python programming using conda for environment management and Visual Studio Code as an integrated development environment (IDE).
 
+BEEP BBOOOP_ BOOP
+
 ## Windows Subsystem for Linux
 
 If you're developing on Windows, it is recommended that you first install Windows Subsystem for Linux (WSL) on your machine. WSL is a virtualization software that lets developers install a Linux distribution (such as Ubuntu, OpenSUSE, Kali, Debian, Arch Linux, etc) and use Linux applications, utilities, and Bash command-line tools directly on Windows, unmodified, without the overhead of a traditional virtual machine or dualboot setup.
