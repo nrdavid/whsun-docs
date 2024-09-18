@@ -26,7 +26,7 @@ curl --url 'smtps://smtp.gmail.com:465' --ssl-reqd \
   --mail-from 'sender@gmail.com' \ # (1)!
   --mail-rcpt 'recipient@umich.edu' \ # (2)!
   --user 'sender@gmail.com:YOUR_APP_PASSWORD' \ # (3)!
-  -T <(echo -e 'From: sender@gmail.com\nTo: recipient@umich.edu\nSubject: Server Automatic\n\nCode done!') # (3)!
+  -T <(echo -e 'From: sender@gmail.com\nTo: recipient@umich.edu\nSubject: Server Automatic\n\nCode done!') # (4)!
 ```
 
 1.  The email used to create the app password (i.e. the sender)
