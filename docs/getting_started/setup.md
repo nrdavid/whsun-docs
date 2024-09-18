@@ -84,11 +84,21 @@ Download and install [Visual Studio Code](https://code.visualstudio.com/"). Foll
 1.  VS Code extensions are what makes VS Code more than just a text editor. Take some time to explore the extensions
     marketplace to increase your productivity as a programmer.
 
-Now locate the "New File" option in VS Code to create a new file. Then save it as a `.py` file to tell VS Code that this file is a python script. Now in VS Code open a "New Terminal" using the toolbar. From here you should have opened a new interactive shell within VS Code. Now active your conda environment and type `python filename.py` to run your script (make sure your in the same directory as your saved python file).
+???+ tip "Tip - shortcut to open VS Code"
+
+    quickly open VSCode by typing `code .` in the command line:
+
+Now locate the "New File" option in VS Code to create a new file. Then save it as a `.py` file to tell VS Code that this file is a python script. Now in VS Code open a "New Terminal" using the toolbar. From here you should have opened a new interactive shell within VS Code. Now activate your conda environment and type `python filename.py` to run your script (make sure your in the same directory as your saved python file).
 
 <figure markdown="span">
   ![VS Code Setup](imgs/vscode_python_good.png)
   <figcaption>Getting Python setup in VS Code.</figcaption>
+</figure>
+
+you can also press the play icon in the upper right hand corner of the VS code window. 
+<figure markdown="span">
+  ![VS Code Setup](imgs/VScode_playButton.png)
+  <figcaption>Running a python file in VS Code.</figcaption>
 </figure>
 
 At this point it's also a good idea to open the Command Palette to tell VS Code (and Pylance) which Python interpreter to point to. This will allow VS Code to properly identify which packages you have installed and which you do not. Use <span style="color:blue">&#8679;&#8984;P</span> (Mac) or <span style="color:blue">`Ctrl+Shift+P`</span> (Windows). Then type `Python: Select Interpreter` and select the option. From here you should see all your available global environments. Choose the one you've setup and are using.
