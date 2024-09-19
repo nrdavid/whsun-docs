@@ -154,7 +154,7 @@ nav:
   
   - Programming:
     - Overview: 'programming/overview.md'
-    - Asynchronization: 'programming/asynchronization.md'
+    - Asynchrony: 'programming/asynchrony.md'
     - Email Upon Completion: 'programming/email_upon_completion.md'
     - Embarrassingly Parallel: 'programming/embarrasingly_parallel.md'
     - Logging: 'programming/logging.md'
