@@ -3,6 +3,10 @@ There are a few different ways to connect to a linux server. The most common way
 ## What is SSH key authentication?
 SSH key authentication is a way to connect to a linux server without using a password. Password authentication can be brute-forced by powerful computers. In SSH key authentication we instead use a public and private key pair. These key pairs are cryptographically secure keys that can be used to authenticate a client to an SSH server. The private key is held by the client and should never be shared. Compromise of the private key will result in a breach. The public key is held by the server and can be shared with anyone. The public key is used to verify the client's identity. The public key is also used to encrypt messages that can only be decrypted by the private key. This is called *asymmetric encryption*. They public key is added to a special file within the user account that you'll be logging into called `~/.ssh/authorized_keys`. When a client attempts to authenticate using the SSH key, the server will test the client by encrypting a message with the public key. If the client can decrypt the message with the private key, the client is authenticated and a session is spawned.
 
+???+ warning "Warning - UMich Users"
+    
+    If your host machine lies within the Universities network, you will likely need to be connected inside of that network or be able to tunnel in using a VPN prior to connection. 
+
 ## Creating the SSH key pair
 
 On your local computer, generate the SSH key pair using the following command:
