@@ -37,5 +37,5 @@ The site is maintained by the [Sun Research Group](https://whsunresearch.group/)
 
 > First off, thank you so much for contributing to our group's handbook. These contributions will help current and future group members excel in their research.
 
-1. Please create a branch to add/commit changes to followed with a pull request.
+1. Please create a branch to add/commit changes to followed with a pull request. Rebase your branch to the "main" branch before submitting your pull request.
 2. A reviewer will either accept or reject your request.
