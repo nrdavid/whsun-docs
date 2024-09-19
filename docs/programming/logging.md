@@ -90,4 +90,4 @@ This will generate the output seen below. Depending on your editor, the messages
     Look at my logger!
     ```
 
-    1.  This will be the name of the module from which your code is in. Likely **"\_\_main\_\_"**, at least in this case.
+    1.  This will be the name of the module from which your code is in. Likely "**\_\_main\_\_**", at least in this case.
