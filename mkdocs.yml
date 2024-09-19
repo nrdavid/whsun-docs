@@ -161,3 +161,4 @@ nav:
     - Pymatgen: 'programming/pymatgen.md'
     - SSH: 'programming/ssh.md'
     - VS Code: 'programming/vscode.md'
+    - Version Control with Github: 'programming/version_control.md'

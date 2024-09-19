@@ -103,6 +103,11 @@ you can also press the play icon in the upper right hand corner of the VS code w
 
 At this point it's also a good idea to open the Command Palette to tell VS Code (and Pylance) which Python interpreter to point to. This will allow VS Code to properly identify which packages you have installed and which you do not. Use <span style="color:blue">&#8679;&#8984;P</span> (Mac) or <span style="color:blue">`Ctrl+Shift+P`</span> (Windows). Then type `Python: Select Interpreter` and select the option. From here you should see all your available global environments. Choose the one you've setup and are using.
 
+???+ tip "Tip - set VS Code to autosave"
+
+    You can set VS Code to autosave files as you make changes by selecting File -> Autosave 
+
+
 ???+ warning "Warning - WSL Users"
 
     ![WSL Remote](imgs/remote_wsl.png){ align=left }
