@@ -21,7 +21,7 @@ First, you'll want to clone the repository.
 Once you've cloned the repository, you can create a new branch with the topic you'd like to contribute with. For example, I'm adding a section on "How to contribute" so maybe I'd name my branch "contributing". This will create the new branch and enter it.
 
 ``` bash
-git checkout -b contributing
+git checkout -b <BRANCH_NAME>
 ```
 
 ## Making your changes
