@@ -58,4 +58,3 @@ git rebase main <BRANCH_NAME>
 ```
 
 After that, go to the repository online and create a pull request to main. @nrdavid will then review the request!
-
