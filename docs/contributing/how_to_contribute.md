@@ -24,6 +24,14 @@ Once you've cloned the repository, you can create a new branch with the topic yo
 git checkout -b <BRANCH_NAME>
 ```
 
+Set your upstream for the branch.
+
+```bash
+git branch --set-upstream-to=origin/<BRANCH_NAME>  <BRANCH_NAME>
+```
+
+Then push you branch to the remote `git push`.
+
 ## Making your changes
 
 To add your section to the navigation bar, go to `mkdocs.yml` and add your section to the `nav` tree. You will also need to create a new markdown file (and folder if necessary).
@@ -39,23 +47,21 @@ You should also follow the conventions laid out in other sections like adding a 
 
 ## Commit, Push, and PR
 
-Once your changes are done, add, commit, fetch, rebase, and push them to the remote. Please make your messages meaningful.
+Once your changes are done, add, commit, pull, rebase, and push them to the remote. Please make your messages meaningful.
 
-Fetch the latest changes and rebase your changes to `main` to create an easier pull request.
+Pull the latest changes and rebase your changes to `main` to create an easier pull request.
 
 ``` bash
-git fetch
+git checkout main 
+git pull
 ```
 
 ``` bash
+git checkout <BRANCH_NAME>
 git rebase main <BRANCH_NAME>
 ```
 
-If this is your first time adding this branch, you will need to set its upstream like so:
-
-``` bash
-git push --set-upstream origin <BRANCH_NAME>
-```
+You may need to resolve some conflicts between your branch and `main`. 
 
 After that, go to the repository online and create a pull request to main. @nrdavid will then review the request!
 
