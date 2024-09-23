@@ -58,3 +58,17 @@ git rebase main <BRANCH_NAME>
 ```
 
 After that, go to the repository online and create a pull request to main. @nrdavid will then review the request!
+
+## Post PR approval
+
+After your PR has been approved and merged into `main`, you should clean up your branch if you're no longer using it.
+
+``` bash
+git push -d origin <BRANCH_NAME>
+```
+
+``` bash
+git branch -d <BRANCH_NAME>
+```
+
+That's it. Thank you!
