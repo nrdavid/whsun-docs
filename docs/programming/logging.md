@@ -91,3 +91,17 @@ This will generate the output seen below. Depending on your editor, the messages
     ```
 
     1.  This will be the name of the module from which your code is in. Likely "**\_\_main\_\_**", at least in this case.
+
+???+ example
+
+    If you don't want to use the logger or are working in different language, you can still write `stdout` (standard output) and `stderr` (standard error) to a file with the following bash code:
+
+    ``` bash
+    some_command > file.log 2>&1
+    ```
+
+    1. `some_command`: Executes a command (which could be any valid program or script).
+
+    2. `>file.log`: Redirects the standard output (stdout) of the command to a file named `file.log`. If `file.log` doesn't exist, it is created; if it exists, its contents are overwritten.
+
+    3. `2>&1`: Redirects the standard error (stderr) (represented by file descriptor 2) to the same location as standard output (stdout) (represented by file descriptor 1). Essentially, this ensures that both the output and errors from the command are written to `file.log`.
