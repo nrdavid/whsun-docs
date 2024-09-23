@@ -68,7 +68,9 @@ git push -d origin <BRANCH_NAME>
 ```
 
 ``` bash
-git branch -d <BRANCH_NAME>
+git branch -D <BRANCH_NAME>
 ```
+
+Lastly, you should pull the recent changes from `main` into your local.
 
 That's it. Thank you!
