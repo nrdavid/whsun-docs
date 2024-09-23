@@ -39,15 +39,9 @@ You should also follow the conventions laid out in other sections like adding a 
 
 ## Commit, Push, and PR
 
-Once your changes are done, add, commit, and push them to the remote using `git add`, `git commit`, and `git push`. Please make your messages meaningful.
+Once your changes are done, add, commit, fetch, rebase, and push them to the remote. Please make your messages meaningful.
 
-If this is your first time adding this branch, you will need to set its upstream like so:
-
-``` bash
-git push --set-upstream origin <BRANCH_NAME>
-```
-
-Then fetch and rebase your changes to main to create an easier pull request.
+Fetch and rebase your changes to main to create an easier pull request.
 
 ``` bash
 git fetch
@@ -55,6 +49,12 @@ git fetch
 
 ``` bash
 git rebase main <BRANCH_NAME>
+```
+
+If this is your first time adding this branch, you will need to set its upstream like so:
+
+``` bash
+git push --set-upstream origin <BRANCH_NAME>
 ```
 
 After that, go to the repository online and create a pull request to main. @nrdavid will then review the request!
