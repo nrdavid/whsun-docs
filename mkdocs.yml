@@ -162,3 +162,6 @@ nav:
     - SSH: 'programming/ssh.md'
     - VS Code: 'programming/vscode.md'
     - Version Control with Github: 'programming/version_control.md'
+
+  - Contributing:
+    - How to Contribute: 'contributing/how_to_contribute.md'
