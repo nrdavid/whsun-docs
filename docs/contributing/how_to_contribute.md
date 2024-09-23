@@ -41,7 +41,7 @@ You should also follow the conventions laid out in other sections like adding a 
 
 Once your changes are done, add, commit, fetch, rebase, and push them to the remote. Please make your messages meaningful.
 
-Fetch and rebase your changes to main to create an easier pull request.
+Fetch the latest changes and rebase your changes to `main` to create an easier pull request.
 
 ``` bash
 git fetch
